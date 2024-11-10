@@ -1,5 +1,5 @@
 public class Lab1 {
-    // выделяю место под массивы. мне удобнее, чтобы они были глобальными
+    // выделяю память под массивы
     private static final short[] e = new short[8];
     private static final float[] x = new float[13];
     private static final double[][] f = new double[8][13];
