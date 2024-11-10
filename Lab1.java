@@ -21,8 +21,8 @@ public class Lab1 {
                 f[i][j] = calcArray(e[i], x[j]);
             }
         }
-    // метод калькАррай, считает каждый элемент массива ф согласно правилу
     }
+    // метод калькАррай, считает каждый элемент массива ф согласно правилу
     public static double calcArray(int i, float j) {
         if (i == 4) {
             return Math.pow(Math.tan(Math.tan(j)), (0.25 + Math.cos(Math.sin(j))));
